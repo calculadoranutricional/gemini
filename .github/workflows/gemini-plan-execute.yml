@@ -128,4 +128,4 @@ jobs:
                 ]
               }
             }
-          prompt: '/gemini-plan-execute'
+          prompt: '--skip-trust /gemini-plan-execute'

@@ -134,7 +134,7 @@ jobs:
                 ]
               }
             }
-          prompt: '/gemini-scheduled-triage'
+          prompt: '--skip-trust /gemini-scheduled-triage'
 
   label:
     runs-on: 'ubuntu-latest'

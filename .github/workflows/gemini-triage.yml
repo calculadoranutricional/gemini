@@ -98,7 +98,7 @@ jobs:
                 ]
               }
             }
-          prompt: '/gemini-triage'
+          prompt: '--skip-trust /gemini-triage'
 
   label:
     runs-on: 'ubuntu-latest'
